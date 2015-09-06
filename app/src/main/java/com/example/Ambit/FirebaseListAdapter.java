@@ -62,7 +62,6 @@ public abstract class FirebaseListAdapter<T> extends BaseAdapter {
 
                 T model = dataSnapshot.getValue(FirebaseListAdapter.this.mModelClass);
                 String key = dataSnapshot.getKey();
-                Log.v("Keyness????", key);
 
                 // Insert into the correct location, based on previousChildName
                 if (previousChildName == null) {

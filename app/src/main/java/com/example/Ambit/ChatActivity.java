@@ -17,6 +17,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
@@ -30,10 +31,11 @@ public class ChatActivity extends ListActivity {
     private static final String FIREBASE_URL = "https://ambit.firebaseio.com";
 
     private String mUsername;
+    private String mUsernameID;
     private Firebase mFirebaseRef;
     private Firebase mFirebaseRefUsers;
-    private Firebase mFirebaseCurrentUser;
     private ValueEventListener mConnectedListener;
+    private ChildEventListener mChildListener;
     private ChatListAdapter mChatListAdapter;
 
     @Override
@@ -96,14 +98,42 @@ public class ChatActivity extends ListActivity {
         });
 
         // Finally, a little indication of connection status
+
+        mChildListener = mFirebaseRef.getRoot().child("users").addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                MainActivity.userId = dataSnapshot.getKey();
+                Log.v("YESSS,", MainActivity.userId);
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+
+            }
+        });
+
         mConnectedListener = mFirebaseRef.getRoot().child(".info/connected").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 boolean connected = (Boolean) dataSnapshot.getValue();
                 if (connected) {
-                    MainActivity.user.setID((int) (Math.random() * 100) + mUsername);
-                    mFirebaseCurrentUser = new Firebase(FIREBASE_URL).child("users").child(MainActivity.user.getID());
-                    mFirebaseCurrentUser.push().setValue(MainActivity.user);
+                    mUsernameID = ((int) (Math.random() * 100) + mUsername);
+                    mFirebaseRefUsers.push().setValue(MainActivity.user);
                     Toast.makeText(ChatActivity.this, "Connected to Firebase", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(ChatActivity.this, "Disconnected from Firebase", Toast.LENGTH_SHORT).show();
@@ -123,7 +153,7 @@ public class ChatActivity extends ListActivity {
         super.onStop();
         mFirebaseRef.getRoot().child(".info/connected").removeEventListener(mConnectedListener);
         mChatListAdapter.cleanup();
-        mFirebaseCurrentUser.removeValue();
+        mFirebaseRefUsers.child(MainActivity.userId).removeValue();
     }
 
     private void setupUsername() {
@@ -138,9 +168,10 @@ public class ChatActivity extends ListActivity {
         String input = inputText.getText().toString();
         if (!input.equals("")) {
             // Create our 'model', a Chat object
-            Messages chat = new Messages(null, MainActivity.user.getName(), input, MainActivity.user.getID());
+            Messages messages = new Messages("", MainActivity.user.getName(), input, MainActivity.userId);
+            Log.v("name and id", MainActivity.user.getName() + " " + MainActivity.userId);
             // Create a new, auto-generated child of that chat location, and save our chat data there
-            mFirebaseRef.push().setValue(chat);
+            mFirebaseRef.push().setValue(messages);
             inputText.setText("");
 
         }

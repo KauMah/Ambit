@@ -7,9 +7,7 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
@@ -91,8 +89,8 @@ public class CircleResizor extends FragmentActivity implements OnSeekBarChangeLi
     }
     public void joinChat(View view){
         Intent intent = new Intent(this, ChatActivity.class);
-        MainActivity.user.setLat(latitude);
-        MainActivity.user.setLon(longitude);
+        MainActivity.user.setLatitude(latitude);
+        MainActivity.user.setLongitude(longitude);
         MainActivity.user.setRadius(mSizeBar.getProgress());
 
         startActivity(intent);

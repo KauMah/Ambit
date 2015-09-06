@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
 
 
     public static User user = new User();
+    public static String userId;
 
     public void clickHandler(View target) {
         Intent intent = new Intent(this, CircleResizor.class);

@@ -6,20 +6,18 @@ package com.example.Ambit;
 public class User {
 
     private String name;
-    private double lat;
-    private double lon;
+    private double latitude;
+    private double longitude;
     private int radius;
-    private String ID;
 
     User(){
     }
 
-    User(String name,double lat, double lon, int radius, String ID){
+    User(String name,double latitude, double longitude, int radius){
         this.name = name;
-        this.lat = lat;
-        this.lon = lon;
+        this.latitude = latitude;
+        this.longitude = longitude;
         this.radius = radius;
-        this.ID = ID;
     }
 
     public String getName(){
@@ -30,28 +28,20 @@ public class User {
         this.name = name;
     }
 
-    public String getID() {
-        return ID;
+    public double getLatitude() {
+        return latitude;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
     }
 
-    public double getLat() {
-        return lat;
+    public double getLongitude() {
+        return longitude;
     }
 
-    public void setLat(double lat) {
-        this.lat = lat;
-    }
-
-    public double getLon() {
-        return lon;
-    }
-
-    public void setLon(double lon) {
-        this.lon = lon;
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
     public int getRadius() {

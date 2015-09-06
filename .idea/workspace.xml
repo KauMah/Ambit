@@ -29,9 +29,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/ChatListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/CircleResizor$DraggableCircle.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/CircleResizor$DraggableCircle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/CircleResizor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/CircleResizor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/FirebaseListAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/FirebaseListAdapter$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/FirebaseListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/FirebaseListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/Messages.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/Messages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/User.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/Ambit/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
@@ -40,8 +44,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/CircleResizor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/CircleResizor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/FirebaseListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/FirebaseListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/Messages.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/Messages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SampleMaps.iws" />
@@ -74,29 +81,9 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
-                <element signature="e#677#678#0" expanded="false" />
-                <element signature="e#771#772#0" expanded="false" />
-                <element signature="e#801#802#0" expanded="false" />
-                <element signature="e#831#832#0" expanded="false" />
-                <element signature="e#857#858#0" expanded="false" />
-                <element signature="e#895#896#0" expanded="false" />
-                <element signature="e#925#926#0" expanded="false" />
-                <element signature="e#955#956#0" expanded="false" />
-                <element signature="e#984#985#0" expanded="false" />
-                <element signature="e#1025#1026#0" expanded="false" />
-                <element signature="e#1061#1062#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,16 +92,16 @@
       <file leaf-file-name="ChatActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.451505">
-              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.44481605">
+              <caret line="170" column="47" selection-start-line="170" selection-start-column="47" selection-end-line="170" selection-end-column="47" />
               <folding>
-                <element signature="e#1849#2215#0" expanded="true" />
-                <element signature="e#2214#2215#0" expanded="true" />
-                <element signature="e#2276#2426#0" expanded="true" />
-                <element signature="e#2425#2426#0" expanded="true" />
-                <element signature="e#3128#3342#0" expanded="true" />
-                <element signature="e#3341#3342#0" expanded="true" />
-                <element signature="method#onCancelled#0;class#3518:4429" expanded="false" />
+                <element signature="e#1932#2298#0" expanded="true" />
+                <element signature="e#2297#2298#0" expanded="true" />
+                <element signature="e#2359#2509#0" expanded="true" />
+                <element signature="e#2508#2509#0" expanded="true" />
+                <element signature="e#3211#3425#0" expanded="true" />
+                <element signature="e#3424#3425#0" expanded="true" />
+                <element signature="method#onCancelled#0;class#4387:5167" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,8 +111,24 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/CircleResizor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Messages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/Messages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#204#231#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/FirebaseListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+              <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -143,7 +146,7 @@
       <file leaf-file-name="ChatListAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9310346">
+            <state vertical-scroll-proportion="7.62069">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
@@ -1696,11 +1699,11 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/phone_strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/User.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/Messages.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/CircleResizor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/User.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/Messages.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/FirebaseListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatActivity.java" />
       </list>
@@ -2033,7 +2036,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441525173647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deleting stuff is easier now on ANDROID ONLY, iOS breaks with Android database">
+      <created>1441534043799</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1441534043799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2052,7 +2061,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44293016" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44293016" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2082,7 +2091,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ability to delete database data when user leaves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to delete database data when user leaves" />
+    <MESSAGE value="Deleting stuff is easier now on ANDROID ONLY, iOS breaks with Android database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleting stuff is easier now on ANDROID ONLY, iOS breaks with Android database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2095,7 +2105,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2104,17 +2116,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="e#677#678#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#801#802#0" expanded="false" />
-            <element signature="e#831#832#0" expanded="false" />
-            <element signature="e#857#858#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1025#1026#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2124,13 +2131,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1849#2215#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2276#2426#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-            <element signature="e#3128#3342#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
-            <element signature="method#onCancelled#0;class#3518:4429" expanded="false" />
+            <element signature="e#1932#2298#0" expanded="true" />
+            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2359#2509#0" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+            <element signature="e#3211#3425#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
+            <element signature="method#onCancelled#0;class#4387:5167" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2182,7 +2189,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="30" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2302,34 +2311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#677#678#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#801#802#0" expanded="false" />
-            <element signature="e#831#832#0" expanded="false" />
-            <element signature="e#857#858#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1025#1026#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6748634">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2360,26 +2341,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/FirebaseListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9310346">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.5117057">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.62069">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2387,23 +2377,45 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/CircleResizor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/FirebaseListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#204#231#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/Ambit/ChatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.451505">
-          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.44481605">
+          <caret line="170" column="47" selection-start-line="170" selection-start-column="47" selection-end-line="170" selection-end-column="47" />
           <folding>
-            <element signature="e#1849#2215#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2276#2426#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-            <element signature="e#3128#3342#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
-            <element signature="method#onCancelled#0;class#3518:4429" expanded="false" />
+            <element signature="e#1932#2298#0" expanded="true" />
+            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2359#2509#0" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+            <element signature="e#3211#3425#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
+            <element signature="method#onCancelled#0;class#4387:5167" expanded="false" />
           </folding>
         </state>
       </provider>
