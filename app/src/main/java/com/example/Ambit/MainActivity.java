@@ -15,13 +15,12 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 
-    User user = new User();
+    public static User user = new User();
 
     public void clickHandler(View target) {
         Intent intent = new Intent(this, CircleResizor.class);
         EditText editText = (EditText) findViewById(R.id.editText);
-        intent.putExtra("username", editText.getText().toString());
-        Log.v("username", editText.getText().toString());
+        user.setName(editText.getText().toString());
         startActivity(intent);
     }
 

@@ -47,6 +47,9 @@ public class CircleResizor extends FragmentActivity implements OnSeekBarChangeLi
 
     private List<DraggableCircle> mCircles = new ArrayList<DraggableCircle>(1);
 
+    double longitude;
+    double latitude;
+
     private SeekBar mColorBar;
     private SeekBar mSizeBar;
     private int mStrokeColor;
@@ -68,8 +71,8 @@ public class CircleResizor extends FragmentActivity implements OnSeekBarChangeLi
 
         LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-        double longitude = location.getLongitude();
-        double latitude = location.getLatitude();
+        longitude = location.getLongitude();
+        latitude = location.getLatitude();
 
 
         othersGeoPositions.add(new LatLng(latitude + .1, longitude + .1));
@@ -89,8 +92,11 @@ public class CircleResizor extends FragmentActivity implements OnSeekBarChangeLi
     public void joinChat(View view){
         Intent intent = new Intent(this, ChatActivity.class);
         EditText editText = (EditText) findViewById(R.id.editText);
-        Intent oldIntent = getIntent();
-        intent.putExtra("username", oldIntent.getStringExtra("username"));
+
+        MainActivity.user.setLat(latitude);
+        MainActivity.user.setLon(longitude);
+        MainActivity.user.setRadius(mSizeBar.getProgress());
+
         startActivity(intent);
     }
 

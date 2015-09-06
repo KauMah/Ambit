@@ -9,15 +9,17 @@ public class User {
     private double lat;
     private double lon;
     private int radius;
+    private String ID;
 
     User(){
     }
 
-    User(String name,double lat, double lon, int radius){
+    User(String name,double lat, double lon, int radius, String ID){
         this.name = name;
         this.lat = lat;
         this.lon = lon;
         this.radius = radius;
+        this.ID = ID;
     }
 
     public String getName(){
@@ -26,6 +28,14 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
     }
 
     public double getLat() {

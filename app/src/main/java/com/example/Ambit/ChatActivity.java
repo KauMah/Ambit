@@ -34,7 +34,6 @@ public class ChatActivity extends ListActivity {
     private Firebase mFirebaseRefUsers;
     private ValueEventListener mConnectedListener;
     private ChatListAdapter mChatListAdapter;
-    private boolean sentUsername = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +43,7 @@ public class ChatActivity extends ListActivity {
         // Make sure we have a mUsername
         setupUsername();
 
-        setTitle("Chatting as " + mUsername);
+        setTitle("Chatting as " + MainActivity.user.getName());
 
         // Setup our Firebase mFirebaseRef
         mFirebaseRef = new Firebase(FIREBASE_URL).child("messages");
@@ -73,7 +72,7 @@ public class ChatActivity extends ListActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
-        MenuInflater inflater = getMenuInflater();
+        //MenuInflater inflater = getMenuInflater();
         //inflater.inflate(R.menu.menu_username, menu);
         return true;
     }
@@ -100,6 +99,9 @@ public class ChatActivity extends ListActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 boolean connected = (Boolean) dataSnapshot.getValue();
                 if (connected) {
+                    mFirebaseRefUsers.push().setValue(MainActivity.user);
+                    MainActivity.user.setID((int) (Math.random() * 100) + mUsername);
+                    Log.v("userID", MainActivity.user.getID());
                     Toast.makeText(ChatActivity.this, "Connected to Firebase", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(ChatActivity.this, "Disconnected from Firebase", Toast.LENGTH_SHORT).show();
@@ -121,25 +123,18 @@ public class ChatActivity extends ListActivity {
     }
 
     private void setupUsername() {
-        SharedPreferences prefs = getApplication().getSharedPreferences("username", 0);
-        Intent intent = getIntent();
-        mUsername = intent.getStringExtra("username");
-        if (mUsername.equals("Your username here") || mUsername.equals("")){
-            mUsername = "Anonymous";
+        if (MainActivity.user.getName().equals("Your username here") || MainActivity.user.getName().equals("")){
+            MainActivity.user.setName("Anonymous");
         }
-        prefs.edit().putString("username", mUsername).commit();
+        mUsername = MainActivity.user.getName();
     }
 
     private void sendMessage() {
-        if (!sentUsername){
-            mFirebaseRefUsers.push().setValue(user);
-            sentUsername=true;
-        }
         EditText inputText = (EditText) findViewById(R.id.messageInput);
         String input = inputText.getText().toString();
         if (!input.equals("")) {
             // Create our 'model', a Chat object
-            Messages chat = new Messages(null, mUsername, input);
+            Messages chat = new Messages(null, MainActivity.user.getName(), input, MainActivity.user.getID());
             // Create a new, auto-generated child of that chat location, and save our chat data there
             mFirebaseRef.push().setValue(chat);
             inputText.setText("");

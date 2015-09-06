@@ -7,6 +7,7 @@ public class Messages {
     private String imageUrl;
     private String sender;
     private String text;
+    private String ID;
 
     @SuppressWarnings("unused")
     private Messages(){}
@@ -27,9 +28,10 @@ public class Messages {
         return text;
     }
 
-    Messages(String url, String sndr, String txt){
+    Messages(String url, String sndr, String txt, String ID){
         this.imageUrl = url;
         this.sender = sndr;
         this.text = txt;
+        this.ID = ID;
     }
 }
