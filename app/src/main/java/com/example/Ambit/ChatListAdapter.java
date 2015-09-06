@@ -36,10 +36,11 @@ public class ChatListAdapter extends FirebaseListAdapter<Messages> {
     protected void populateView(View view, Messages chat) {
         // Map a Chat object to an entry in our listview
         String author = chat.getSender();
+        String guyId = chat.getId();
         TextView authorText = (TextView) view.findViewById(R.id.author);
         authorText.setText(author + ": ");
         // If the message was sent by this user, color it differently
-        if (author != null && author.equals(mUsername)) {
+        if (guyId != null && guyId.equals(MainActivity.userId)) {
             authorText.setTextColor(Color.RED);
         } else {
             authorText.setTextColor(Color.CYAN);
