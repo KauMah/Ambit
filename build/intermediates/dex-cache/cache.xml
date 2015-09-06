@@ -2,228 +2,228 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.10\ddce2c65136c1de8000f8932d8b7ab16d5d336b9\tubesock-0.0.10.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ddce2c65136c1de8000f8932d8b7ab16d5d336b9">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\tubesock-0.0.10-cc59873107e75ac768453bde2342fa16540ede2a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-e53f94edf668420069ed9d5dbfa8155f63ab2b4f.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.0.3\81994bbc1bd46454616b733bf31fe4a22018e056\firebase-client-jvm-2.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="81994bbc1bd46454616b733bf31fe4a22018e056">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.0.3-876fb58077ef19f78e4869a1230def1de15f398f.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-13b6272216afbca431e577cfd7ca7c452348a2e1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-9b7ca1a43cd0b32069cf1c0988f8e84ad109a47c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-6c0c1147f941188fed01d7771e1c5f394c333a8c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-67297ec121653bae3b25991f12b83fcfbbece7a1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-f5e090cf04b01938d34a88f402879f2076bb5299.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-8036d902da40198527cde70d70e81699ff0a8f5f.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-fb0ecda133f74819357181f447e271e599a229b4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2-eaf1ac908a6f9923c40d6aa8cacb11545086e8dc.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-6eeacd852ebe0f6716db9efc7b9fab68023637c9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-e8dc3b31a5048187532bffc78dd41c852312e535.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-7a9203d26301b24f75f9d13a322375d91461b7d4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-50bbec3b7440eed8352904612407229f1056ed1a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-5fbd3dd2796772e700a4d0942cc6a08830d76a30.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-f67ff896b9d00fee1083d90592add4f96df0d021.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-45d070fe94363e3924ca1b41339cde4e20385d32.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-83de25bc28e74d17435b7efc71fca5627d4407df.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.0.3\1665cb30372ae93a46d9800adf5751bc48fa202f\firebase-client-android-2.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1665cb30372ae93a46d9800adf5751bc48fa202f">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.0.3-377ae556ef16ae7a618f15f9877850124d9f96a5.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-08d86a2a49ffe43d192b91f1eeae8253d1265e0b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2-decc206cf4a52fd7e9b95d3543d9366880901109.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-cb4b8e8b05285a0570ce0810767bec0b0e1b2cb7.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-b3c8168f7f646c6dbe2904e99802582a77f77e43.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-50b3275d73cdd699dc5e7be8295357bcb01a5043.jar" />
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-96b969c1c8cc043e3b604632fec014d1dbe9913c.jar" />
     </item>
     <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-2b4613b94fc3d8a414af1ccfee624e4c5e0bcea6.jar" />
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-a06deffbaedf357540771f59cec92ccea1fceb1c.jar" />
     </item>
     <item
-        jar="C:\Users\Joseph\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-7edb103c5329b356083f0879bf734998e55141fe.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-ef764ca1a63366a9ca4576c3e41200a0b369397d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-dc2ea426056e3f8a0f3c7baf4b060d573bec37e1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-a99dc7ce6ce41d37caca0d9a12befaf899cc5539.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2-5779e686a6bfef6ab2b2ecdee3b3e9c20a12ae0b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="C:\Users\Joseph\AndroidStudioProjects\SampleMaps\app\build\intermediates\pre-dexed\debug\classes-b18826789e2cde278e97043106dec8d785a589ea.jar" />
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-a22c8220fa4a949e49e1f8b0586ad22590f8a27c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-fda086ab872b3452e56ad9bec452634e09b189be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-754b6d496bada1e4dd87e5678ba781ace54f3702.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-15a203c8296cab794349218679948c02d9e399f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-9f03ce19c87b4dd9d3f2193a9c2ea1c6db20abe8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-955064952439f18d83aafe0fadafb49a9b214f0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-0e8981a6db81a0ae2325ccd8b10f683712eb7c3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-d62ebc29254393e7f2d3af9df0eb9bbef88add5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.10\ddce2c65136c1de8000f8932d8b7ab16d5d336b9\tubesock-0.0.10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddce2c65136c1de8000f8932d8b7ab16d5d336b9">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\tubesock-0.0.10-65cbda05ac59b0af57356ac22d22f6dae5c2d536.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-cafd2a9754026fc7e5b706ac4d107e1649e6e035.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-d817a4590b02338080b542b2593c71fa57e0a111.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2-8b91238970b44ceea6b13686bcacb3265659f6ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-e7d0544826685bafeeedc0555e95d20373cbb18b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-db673e864eaae5dd809d5fc585087ba8338d9518.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-147e1fee753105b310c160b8fad5f9e0898534d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-2f46efce134eee7986d9248eaeab73d9d632ce79.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-30b1ea4bd994f890140168adfb5b4727bde45614.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.0.3\1665cb30372ae93a46d9800adf5751bc48fa202f\firebase-client-android-2.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1665cb30372ae93a46d9800adf5751bc48fa202f">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.0.3-b4589c306df132b637d9a967c31f363c2246a5dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2-4d4aa7a437846f5669910b84b66474b6a4257d64.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.0.3\81994bbc1bd46454616b733bf31fe4a22018e056\firebase-client-jvm-2.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81994bbc1bd46454616b733bf31fe4a22018e056">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.0.3-bd03b4011d23cea226596c4388092117c7974f1b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-5085854a84f3788fb2ae39e2b437d99206f535a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-01ebd21834c5ac4c3ad13ec469d62165371afbe6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-cf15c4508e91475a40842fc88b3c74b8bada09c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-3e08501394b07349d3e564c49fcd25438fdcd78a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2-5a94c3e7acbce9c14151cd4613830dc3db196545.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-8c187e2336202559cbca685ead0d360f86ce9121.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-ea38aff7d01716ec300d6ff220f5f0f6d6f4eb1e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-2a735a35eaeff09e35a6e7a761aad8a97f448df5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-ddb10a04bb677dae64ab53bf6f655931677f986f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Kaushik\Desktop\Programming\10 - Pennapps XII 2015\Ambit\app\build\intermediates\pre-dexed\debug\classes-3ba28451daad2dc76959e29be1e14d9835a852f1.jar" />
     </item>
 
 </items>

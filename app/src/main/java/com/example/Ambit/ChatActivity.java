@@ -71,6 +71,13 @@ public class ChatActivity extends ListActivity {
     }
 
     @Override
+    public void onDestroy(){
+        mFirebaseRef.removeValue();
+        mFirebaseRefUsers.removeValue();
+        super.onDestroy();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu){
         //MenuInflater inflater = getMenuInflater();
         //inflater.inflate(R.menu.menu_username, menu);

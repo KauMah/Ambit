@@ -91,8 +91,6 @@ public class CircleResizor extends FragmentActivity implements OnSeekBarChangeLi
     }
     public void joinChat(View view){
         Intent intent = new Intent(this, ChatActivity.class);
-        EditText editText = (EditText) findViewById(R.id.editText);
-
         MainActivity.user.setLat(latitude);
         MainActivity.user.setLon(longitude);
         MainActivity.user.setRadius(mSizeBar.getProgress());
