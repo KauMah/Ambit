@@ -32,6 +32,7 @@ public class ChatActivity extends ListActivity {
     private String mUsername;
     private Firebase mFirebaseRef;
     private Firebase mFirebaseRefUsers;
+    private Firebase mFirebaseCurrentUser;
     private ValueEventListener mConnectedListener;
     private ChatListAdapter mChatListAdapter;
 
@@ -48,6 +49,7 @@ public class ChatActivity extends ListActivity {
         // Setup our Firebase mFirebaseRef
         mFirebaseRef = new Firebase(FIREBASE_URL).child("messages");
         mFirebaseRefUsers = new Firebase(FIREBASE_URL).child("users");
+
 
         // Setup our input methods. Enter key on the keyboard or pushing the send button
         EditText inputText = (EditText) findViewById(R.id.messageInput);
@@ -68,13 +70,6 @@ public class ChatActivity extends ListActivity {
             }
         });
 
-    }
-
-    @Override
-    public void onDestroy(){
-        mFirebaseRef.removeValue();
-        mFirebaseRefUsers.removeValue();
-        super.onDestroy();
     }
 
     @Override
@@ -106,9 +101,9 @@ public class ChatActivity extends ListActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 boolean connected = (Boolean) dataSnapshot.getValue();
                 if (connected) {
-                    mFirebaseRefUsers.push().setValue(MainActivity.user);
                     MainActivity.user.setID((int) (Math.random() * 100) + mUsername);
-                    Log.v("userID", MainActivity.user.getID());
+                    mFirebaseCurrentUser = new Firebase(FIREBASE_URL).child("users").child(MainActivity.user.getID());
+                    mFirebaseCurrentUser.push().setValue(MainActivity.user);
                     Toast.makeText(ChatActivity.this, "Connected to Firebase", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(ChatActivity.this, "Disconnected from Firebase", Toast.LENGTH_SHORT).show();
@@ -120,6 +115,7 @@ public class ChatActivity extends ListActivity {
                 // No-op
             }
         });
+
     }
 
     @Override
@@ -127,6 +123,7 @@ public class ChatActivity extends ListActivity {
         super.onStop();
         mFirebaseRef.getRoot().child(".info/connected").removeEventListener(mConnectedListener);
         mChatListAdapter.cleanup();
+        mFirebaseCurrentUser.removeValue();
     }
 
     private void setupUsername() {
@@ -145,6 +142,7 @@ public class ChatActivity extends ListActivity {
             // Create a new, auto-generated child of that chat location, and save our chat data there
             mFirebaseRef.push().setValue(chat);
             inputText.setText("");
+
         }
     }
 }

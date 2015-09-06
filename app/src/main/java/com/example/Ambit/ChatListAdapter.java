@@ -42,7 +42,7 @@ public class ChatListAdapter extends FirebaseListAdapter<Messages> {
         if (author != null && author.equals(mUsername)) {
             authorText.setTextColor(Color.RED);
         } else {
-            authorText.setTextColor(Color.BLUE);
+            authorText.setTextColor(Color.CYAN);
         }
         ((TextView) view.findViewById(R.id.message)).setText(chat.getText());
     }
