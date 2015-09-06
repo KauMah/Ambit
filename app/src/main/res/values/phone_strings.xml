@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string name="circle_demo_label">Broadcast Range</string>
+  <string name="circle_demo_description"> resize circle.</string>
+  <string name="circle_radius">Circle Size</string>
+  <string name="fill_hue">Circle Color</string>
+  <string name="properties_circle">Circle Properties</string>
+
+
+  <string name="app_name">Firebase Chat</string>
+  <string name="title_activity_main">MainActivity</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+
+
+</resources>
