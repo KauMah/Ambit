@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Gzm-mi-xZd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Ambit-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="MessagesViewController" customModule="FireChat_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ambit" id="Mpb-3E-mHB">
+                        <barButtonItem key="leftBarButtonItem" title="Maps" id="03u-Kj-W8x">
+                            <connections>
+                                <segue destination="KcQ-MC-1ad" kind="show" id="7Iy-iC-rpC"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="bwu-hZ-UTJ">
+                            <connections>
+                                <segue destination="Gzm-mi-xZd" kind="showDetail" id="XBg-E8-vIB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="-510"/>
+        </scene>
+        <!--Maps-->
+        <scene sceneID="mAx-to-Qcw">
+            <objects>
+                <viewController title="Maps" id="KcQ-MC-1ad" customClass="MapViewController" customModule="FireChat_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N3D-0I-P3X"/>
+                        <viewControllerLayoutGuide type="bottom" id="0y9-tz-xBQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cbt-Mq-ylG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="E2h-rv-76T">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </mapView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="55555.5" minValue="0.0" maxValue="111111" translatesAutoresizingMaskIntoConstraints="NO" id="JCj-As-fhh">
+                                <rect key="frame" x="14" y="518" width="292" height="31"/>
+                                <connections>
+                                    <action selector="sliderEdit:" destination="KcQ-MC-1ad" eventType="valueChanged" id="v1d-RZ-KHt"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Maps" id="RXG-qZ-Sfb">
+                        <barButtonItem key="leftBarButtonItem" title="Chat" id="q6u-JI-scC">
+                            <connections>
+                                <segue destination="vXZ-lx-hvc" kind="show" id="mdK-Ua-G7w"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="E2h-rv-76T" id="ikp-ko-uJG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E6A-a1-ydN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2352" y="-267"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="T5r-mG-BR0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gmw-sI-4Yj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="G6F-DS-4UZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="xMe-o7-L07"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Do-OD-Of5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="-407"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="WAI-50-mdf">
+            <objects>
+                <viewController id="Avq-wd-9Dg" customClass="LoginViewController" customModule="FireChat_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wd7-BT-RyB"/>
+                        <viewControllerLayoutGuide type="bottom" id="bgP-46-PSH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qQl-qQ-Nk5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaH-fw-wB1">
+                                <rect key="frame" x="145" y="176" width="30" height="30"/>
+                                <state key="normal" title="Go!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="Avq-wd-9Dg" eventType="touchUpInside" id="kkM-xn-qqS"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your username!" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mJD-fy-EAX">
+                                <rect key="frame" x="19" y="138" width="282" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="username:" destination="Avq-wd-9Dg" eventType="editingChanged" id="pzK-R1-1Ys"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Login" id="9Ed-Xy-HJT"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="goLogin" destination="VaH-fw-wB1" id="ndC-aS-are"/>
+                        <outlet property="usernameLogin" destination="mJD-fy-EAX" id="ifI-Pw-PLl"/>
+                        <segue destination="KcQ-MC-1ad" kind="show" identifier="USER_LOGIN" id="bxo-zC-FWv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jkr-q9-rOs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1762" y="329"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0jd-bS-rPQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gzm-mi-xZd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="f7i-Uh-oyO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lBH-Pf-sZa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Avq-wd-9Dg" kind="relationship" relationship="rootViewController" id="qo4-84-DbA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3f-0T-Egs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1098" y="303"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="mdK-Ua-G7w"/>
+        <segue reference="7Iy-iC-rpC"/>
+    </inferredMetricsTieBreakers>
+</document>
